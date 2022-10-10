@@ -1,0 +1,9 @@
+@use '../../vars';
+
+.message {
+    color: vars.$altColor;
+    font-size: 2rem;
+    border-bottom: 0.1rem solid vars.$altColor;
+    padding-bottom: 0.5rem;
+    margin-top: 3.5rem;
+}

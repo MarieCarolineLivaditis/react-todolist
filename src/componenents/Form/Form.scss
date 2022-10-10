@@ -1,0 +1,14 @@
+@use '../../vars';
+
+.form {
+    margin-top: 2rem;
+}
+
+.form-input {
+    border: none;
+    width: 100%;
+    height: 10vh;
+    font-size: 2.5em;
+    padding: 0.7rem 0 0.7rem 0.7rem;
+    background-color: vars.$darkBaseColor;
+}
