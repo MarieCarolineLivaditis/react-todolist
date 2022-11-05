@@ -20,7 +20,8 @@
         }
 
         &-checkbox {
-            appearance: unset;
+            -webkit-appearance: none;
+            appearance: none;
             position: relative;
 
             &:before {
@@ -28,22 +29,23 @@
                 display: inline-block;
                 height: 1rem;
                 width: 1rem;
-                border: 0.1rem solid vars.$darkBaseColor;   
+                border: 0.2rem solid vars.$darkerBaseColor;   
                 position: absolute;
-                top: -0.82rem;
-                left: -0.2rem;
+                top: -1.2rem;
+                left: -0.3rem;
             }
 
             &:after {
                 content: none;
                 display: inline-block;
                 height: 0.4rem;
-                width: 0.7rem;
-                border-left: 2px solid vars.$altColor;
-                border-bottom: 2px solid vars.$altColor;
-                transform: rotate(-45deg);
+                width: 0.8rem;
+                border-left: 0.3rem solid vars.$darkerBaseColor;
+                border-bottom: 0.3rem solid vars.$darkerBaseColor;
+                transform: rotate(-55deg);
                 position: absolute;
-                top: -0.6rem;
+                top: -0.9rem;
+                left: -0.1rem;
             }
 
             &:checked:after {
